@@ -137,7 +137,7 @@ class CreditCard extends Component {
                     flipHorizontal={true}
                     flipVertical={false}
                     flip={this.props.focused === 'cvc'}
-                    clickable={true}
+                    clickable={false}
                     onFlipped={(isFlipped)=>{console.log('isFlipped', isFlipped)}}
                     >
                     <View style={[styles.front, {width: this.props.width, height: this.props.height}]}>
